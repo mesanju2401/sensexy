@@ -1,0 +1,6 @@
+# Create .gitignore file
+echo ".env" >> .gitignore
+echo "portfolio.json" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".DS_Store" >> .gitignore
