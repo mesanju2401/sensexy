@@ -10,7 +10,7 @@ import signal
 import sys
 import logging
 from datetime import datetime
-import pytz
+from zoneinfo import ZoneInfo
 import yfinance as yf
 
 from config import *
@@ -30,14 +30,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger('Sensexy')
 
+
 class SensexyBot:
-    class SensexyBot:
         def __init__(self):
             self.analyzer = MarketAnalyzer()
             self.trade_manager = TradeManager()
             self.notifier = TelegramNotifier(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
             self.utils = MarketUtils()
-            self.ist = pytz.timezone('Asia/Kolkata')
+            self.ist = ZoneInfo("Asia/Kolkata")
             self.running = True
             self.last_analysis_time = None
             
@@ -214,7 +214,7 @@ class SensexyBot:
                     logger.error(f"Error in main loop: {e}")
                     time.sleep(60)  # Wait a minute before retrying
 
-    def main():
+def main():
         """Main entry point"""
         print("""
         ╔════════════════════════════════════════╗
@@ -236,5 +236,5 @@ class SensexyBot:
         bot = SensexyBot()
         bot.run()
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()

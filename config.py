@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram Configuration
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', 'YOUR_CHAT_ID_HERE')
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '8531643397:AAHjWOkL71FIFUA0u1rjRX3JTFUL0gYjgOA')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '1225012575')
 
 # Trading Parameters
 RSI_OVERSOLD = 30

@@ -1,0 +1,15 @@
+2025-11-09 01:44:52,694 - Sensexy - INFO - Sensexy Bot initialized successfully
+2025-11-09 01:44:54,041 - Sensexy - INFO - Starting main bot loop...
+2025-11-09 01:44:54,042 - Sensexy - ERROR - Error in main loop: name 'timedelta' is not defined
+2025-11-09 01:45:54,043 - Sensexy - ERROR - Error in main loop: name 'timedelta' is not defined
+2025-11-09 01:46:43,035 - Sensexy - INFO - Shutdown signal received
+2025-11-09 01:46:44,407 - Sensexy - INFO - Sensexy Bot stopped
+2025-11-09 01:47:46,449 - Sensexy - INFO - Sensexy Bot initialized successfully
+2025-11-09 01:47:47,814 - Sensexy - INFO - Starting main bot loop...
+2025-11-09 01:47:47,815 - Sensexy - ERROR - Error in main loop: name 'MARKET_OPEN_HOUR' is not defined
+2025-11-09 01:48:02,105 - Sensexy - INFO - Shutdown signal received
+2025-11-09 01:48:03,829 - Sensexy - INFO - Sensexy Bot stopped
+2025-11-09 01:52:26,022 - Sensexy - INFO - Sensexy Bot initialized successfully
+2025-11-09 01:52:27,026 - Sensexy - INFO - Starting main bot loop...
+2025-11-09 01:59:16,694 - Sensexy - INFO - Shutdown signal received
+2025-11-09 01:59:17,653 - Sensexy - INFO - Sensexy Bot stopped
