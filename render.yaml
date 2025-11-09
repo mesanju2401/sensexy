@@ -2,6 +2,7 @@ services:
   - type: worker
     name: sensexy-bot
     env: python
+    pythonVersion: "3.11.6"
     buildCommand: "pip install -r requirements.txt"
     startCommand: "bash start.sh"
     autoDeploy: true
